@@ -1,10 +1,10 @@
-package com.sample.restclientdemo;
+package com.sample.httpclientdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestClientDemoApplicationTests {
+class HttpClientDemoApplicationTests {
 
 	@Test
 	void contextLoads() {

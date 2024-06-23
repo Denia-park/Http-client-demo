@@ -1,4 +1,4 @@
-package com.sample.restclientdemo;
+package com.sample.httpclientdemo;
 
 import java.util.Map;
 
@@ -16,7 +16,7 @@ import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 @SpringBootApplication
-public class RestClientDemoApplication {
+public class HttpClientDemoApplication {
 	@Bean
 	ApplicationRunner init(ErApi erApiWebClient, ErApi erApiRestClient) {
 		return args -> {
@@ -108,6 +108,6 @@ public class RestClientDemoApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestClientDemoApplication.class, args);
+		SpringApplication.run(HttpClientDemoApplication.class, args);
 	}
 }
